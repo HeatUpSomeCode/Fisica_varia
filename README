@@ -18,7 +18,7 @@ Si faccia attenzione che non si tengono conto di molte situazioni che si verific
 La simulazione viene eseguita da un ciclo while, che continua finchè c'è gpl.
 E' possibile aggiungere gpl tramite un istruzione che modifica lo stato della camera di combustione.
 
-Se si è raggiunta la temperatura voluta, nell main è rappresentato dalla condizione oggetto1.getTemperaturaOggetto()>100 ,
+Se si è raggiunta la temperatura voluta, nel main è rappresentato dalla condizione oggetto1.getTemperaturaOggetto()>100 ,
 allora la camera di combustione non "brucia" più gpl e l'oggetto si raffredda.
 Altrimenti , viene scaldato l'oggetto nella camera di combustione attraverso l'applicazione
 di una legge fisica.

@@ -1,0 +1,26 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+In questa repository c'è un applicazione di una legge fisica.
+E' possibile fare varie prove su come varia la temperatura di un oggetto "scaldata" da una
+camera di combustione a gpl.
+Non sono dei calcoli ne realistici ne esatti , fare attenzione nel caso li si usasse.
+La repository nasce come modo di vedere l'applicazione di una legge fisica,
+applicata ad un linguaggio di programmazione ad oggetti ossia Java.
+La gestione è piuttosto semplice.
+Viene istanziata la camera di combustione, con le sue dimensioni , combustibile ed efficienza.
+Dimensioni più grandi della camera di combustione generano in uscita più calore o joule.
+Dopo , viene definito l'oggetto da riscaldare.
+Può essere un qualunque materiale di cui si conosca il calore specifico .
+Viene definito in CaloriSpecifici.
+L'oggetto tiene conto della sua massa, del suo calore specifico e della sua temperatura attuale.
+
+Si faccia attenzione che non si tengono conto di molte situazioni che si verificano nella realtà-
+
+La simulazione viene eseguita da un ciclo while, che continua finchè c'è gpl.
+E' possibile aggiungere gpl tramite un istruzione che modifica lo stato della camera di combustione.
+
+Se si è raggiunta la temperatura voluta, nell main è rappresentato dalla condizione oggetto1.getTemperaturaOggetto()>100 ,
+allora la camera di combustione non "brucia" più gpl e l'oggetto si raffredda.
+Altrimenti , viene scaldato l'oggetto nella camera di combustione attraverso l'applicazione
+di una legge fisica.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
